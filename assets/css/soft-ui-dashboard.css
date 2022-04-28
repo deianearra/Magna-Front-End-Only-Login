@@ -4,6 +4,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.app {
+    min-height: 100vh;
+}
 :root {
   --bs-blue: #63B3ED;
   --bs-indigo: #596CFF;
@@ -2728,9 +2731,9 @@ progress {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #e293d3;
+  border-color: #416190;
   outline: 0;
-  box-shadow: 0 0 0 2px #e9aede;
+  box-shadow: 0 0 0 2px #8BA8C9;
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -22911,9 +22914,9 @@ hr.horizontal.gray-light {
   background-color: #fff;
 }
 
-.navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
-  background-image: linear-gradient(310deg, #cb0c9f 0%, #cb0c9f 100%);
-}
+    .navbar-vertical .navbar-nav > .nav-item .nav-link.active .icon {
+        background-image: linear-gradient(310deg, #4B78AE 0%, #4B78AE 100%);
+    }
 
 .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon svg .color-background,
 .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon svg .color-foreground {
